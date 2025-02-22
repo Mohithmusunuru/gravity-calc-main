@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force of Attraction Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello Dude!</h1>
+        <p>Wanna calculate the force of attraction between you and Earth?</p>
+        <button onclick="askUser()">Yes</button>
+        <button onclick="sadMessage()">No</button>
+        <div id="inputSection" style="display: none;">
+            <p>What is your mass in kg?</p>
+            <input type="number" id="mass" placeholder="Enter your mass" />
+            <button onclick="calculateForce()">Calculate</button>
+            <p id="result"></p>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
